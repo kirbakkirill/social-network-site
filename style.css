@@ -1,0 +1,196 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  div {
+    background-color: #393636;
+  }
+  
+  .header .navbar {
+    background-color: #393636;
+  }
+  
+  .carousel {
+    padding: 10px 0px;
+    background-color: #393636;
+  }
+  
+  .carousel h1 {
+    position: absolute;
+    color: #fff;
+    z-index: 7;
+    left: 30px;
+    bottom: 300px;
+    text-align: center;
+  }
+  
+  .carousel p {
+    position: absolute;
+    color: #fff;
+    z-index: 7;
+    left: 30px;
+    bottom: 270px;
+    text-align: center;
+  }
+  
+  .carousel-inner {
+    border-radius: 29px;
+  }
+  
+  .carousel-inner .carousel-item img {
+    filter: brightness(50%);
+    object-fit: cover;
+    height: 500px;
+    object-position: top;
+  }
+  
+  .header .mycards img {
+    border-radius: 29px;
+  }
+  
+  .mycards {
+    color: #fff;
+    padding: 10px 0px;
+    background-color: #393636;
+  }
+  
+  .mycards img {
+    width: 180px;
+  }
+  
+  .form-label {
+    color: #fff;
+  }
+  
+  
+  .header .huina img {
+    width: 103%;
+    border-radius: 29px;
+  }
+  
+  
+  .button-style {
+    margin-left: 900px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px 30px;
+    background: gray;
+    height: 40px;
+    ;
+    border: 1px solid #000;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .header .btn btn-secondary {
+    padding: 5px 30px;
+    border-radius: 10px;
+    border: 1px solid #000;
+  }
+  
+  .form-control {
+    padding: 100px 0px;
+  }
+  
+  .style {
+    margin-left: 700px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px 30px;
+    background: #4B0082;
+    height: 40px;
+    ;
+    border: 1px solid #000;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .huina {
+    bottom: 1000px;
+    position: absolute;
+    width: 1187px;
+    height: 1024px;
+    left: -210px;
+  
+  }
+  
+  .mb-3 {
+    top: 100px;
+    margin-left: 900px;
+    text-align: center;
+  }
+  
+  .button-style:hover,
+  .button-style:focus {
+    background: #6e6e6e;
+  }
+  
+  .style:hover,
+  .style:focus {
+    background: #410073;
+  }
+  
+  
+  body {
+    margin: 0;
+    overflow-x: hidden;
+  }
+  
+  .footer {
+    padding-bottom: 900px;
+    padding: 30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+  }
+  
+  .footer .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: gray;
+    font-size: 0.8em;
+  }
+  
+  .footer .row a {
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+  }
+  
+  .footer .row a:hover {
+    color: #fff;
+  }
+  
+  .footer .row ul {
+    width: 100%;
+  }
+  
+  .footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+  }
+  
+  .footer .row a i {
+    font-size: 2em;
+    margin: 0% 1%;
+  }
+  
+  @media (max-width:720px) {
+    .footer {
+      text-align: left;
+      padding: 5%;
+    }
+  
+    .footer .row ul li {
+      display: block;
+      margin: 10px 0px;
+      text-align: left;
+    }
+  
+    .footer .row a i {
+      margin: 0% 3%;
+    }
+  } 
